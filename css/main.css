@@ -1,27 +1,139 @@
-/* CSS STRUCTURE TEMPLATE */
-.selector {
-    /* POSITIONING */
-    position: absolute, relative, fixed, etc;
-    z-index: 10;
-    top: 0;
-    right: 0;
-    /* DISPLAY & BOX MODEL */
-    display: block, flex, etc;
-    overflow: visible, hidden, scroll, etc;
-    box-sizing: border-box, etc;
-    width: - - -;
-    height: - - - ;
-    padding: 10px 10px;
-    border: 0 solid color;
-    margin: - - - ;
-    /* COLOR */
-    background: - - - ;
-    color: - - - ;
-    /* TEXT */
-    font-family: - - - ;
-    font-size: - - - ;
-    line-height: - - - ;
-    text-align: - - - ;
-    /* OTHER */
-    cursor: - - - ;
+/* BACKGROUND IMG */
+.topimg {
+position: absolute;
+width: 1440px;
+height: 960px;
+left: 0px;
+top: 0px;
+background: url(../img/bkg_1-1.png);
+z-index: 1;
 }
+
+.toTheTop {
+z-index: 2;
+font-family: 'Roboto';
+font-style: normal;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.p1 {
+position: absolute;
+width: 325px;
+height: 60px;
+left: 557px;
+top: 593px;
+font-weight: 800;
+font-size: 51px;
+line-height: 60px;
+}
+
+.p2 {
+position: absolute;
+width: 829px;
+height: 93px;
+left: 305px;
+top: 633px;
+font-weight: 900;
+font-size: 79px;
+line-height: 93px;
+}
+
+.elevator_button {
+position: absolute;
+width: 65px;
+height: 64px;
+left: 687px;
+top: 828px;
+}
+/* BACKGROUND IMG */
+
+/* NAVIGATION BAR */
+.rectangle {
+position: absolute;
+width: 1440px;
+height: 68px;
+left: 0px;
+top: 24px;
+background: rgba(0, 0, 0, 0.69);
+z-index: 2;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+
+.box1 {
+    width: 45%;
+    display: flex;
+    margin-left: 20px;
+}
+
+.box2 {
+    width: 55%;
+}
+
+.navbar {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+list-style-type: none;
+display:flex;
+margin-left: 30px;
+}
+
+.navbar li {
+    padding-right: 60px;
+}
+/* NAVIGATION BAR */
+
+/* GREY BLOCK */
+.rectangle2 {
+position: absolute;
+width: 1440px;
+height: 711px;
+left: 0px;
+top: 960px;
+background: #383838;
+}
+.p3 {
+position: absolute;
+width: 458px;
+height: 29px;
+left: 490px;
+top: 80px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+text-transform: uppercase;
+color: #ffffff;
+}
+.p4 {
+position: absolute;
+width: 667px;
+height: 53px;
+left: 386px;
+top: 113px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 45px;
+line-height: 53px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.separator {
+position: absolute;
+left: 635px;
+top: 240px;
+}
+/* GREY BLOCK */
