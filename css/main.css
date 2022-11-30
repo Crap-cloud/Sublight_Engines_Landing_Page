@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
 body {
 width: 100%;
 height: 4460px;
 top:0;
 right:0;
 left: 0;
-font-family: 'Roboto';
-font-style: normal;
+font-family: 'Roboto', sans-serif;
 overflow-x: hidden;
 }
 
@@ -27,7 +28,7 @@ color: #FFFFFF;
 }
 .p1 {
 position: absolute;
-width: 325px;
+width: 335px;
 height: 60px;
 left: 557px;
 top: 593px;
@@ -87,13 +88,15 @@ display:flex;
 margin-left: 20px;
 }
 
-.navbar li {
+.navbar li a{
     padding-right: 60px;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 /* NAVIGATION BAR */
 /* ======================================================================= */
-/* GREY BLOCK */
-.rectangle2 {
+/* SERVICES */
+.services {
 position: absolute;
 width: 1440px;
 height: 711px;
@@ -103,11 +106,11 @@ background: #383838;
 }
 .p3 {
 position: absolute;
-width: 458px;
+width: 468px;
 height: 29px;
 left: 490px;
-top: 80px;
-font-weight: 700;
+top: 50px;
+font-weight: 500;
 font-size: 25px;
 line-height: 29px;
 text-align: center;
@@ -119,7 +122,7 @@ position: absolute;
 width: 667px;
 height: 53px;
 left: 386px;
-top: 113px;
+top: 65px;
 font-weight: 900;
 font-size: 45px;
 line-height: 53px;
@@ -130,7 +133,7 @@ color: #FFFFFF;
 .separator {
 position: absolute;
 left: 635px;
-top: 240px;
+top: 190px;
 }
 .design {
 position: absolute;
@@ -158,8 +161,8 @@ position: absolute;
 width: 130px;
 height: 29px;
 left: 240px;
-top: 578px;
-font-weight: 700;
+top: 550px;
+font-weight: 500;
 font-size: 25px;
 line-height: 29px;
 text-align: center;
@@ -171,8 +174,8 @@ position: absolute;
 width: 112px;
 height: 29px;
 left: 663px;
-top: 578px;
-font-weight: 700;
+top: 550px;
+font-weight: 500;
 font-size: 25px;
 line-height: 29px;
 text-align: center;
@@ -181,27 +184,27 @@ color: #FFFFFF;
 }
 .p7 {
 position: absolute;
-width: 162px;
+width: 172px;
 height: 29px;
 left: 1052px;
-top: 578px;
-font-weight: 700;
+top: 550px;
+font-weight: 500;
 font-size: 25px;
 line-height: 29px;
 text-align: center;
 text-transform: uppercase;
 color: #FFFFFF;
 }
-/* GREY BLOCK */
+/* SERVICES */
 /* ======================================================================= */
-/* WHITE BLOCK */
+/* ABOUT US */
 .tinyTitle {
 position: absolute;
-width: 392px;
+width: 402px;
 height: 29px;
 left: 71px;
 top: 1800px;
-font-weight: 700;
+font-weight: 600;
 font-size: 25px;
 line-height: 29px;
 text-transform: uppercase;
@@ -215,7 +218,7 @@ width: 515px;
 height: 42px;
 left: 71px;
 top: 1833px;
-font-weight: 900;
+font-weight: 700;
 font-size: 36px;
 line-height: 42px;
 text-transform: uppercase;
@@ -240,10 +243,10 @@ left: 748px;
 top: 1751px;
 background: url(../img/bkg_2-1.png);
 }
-/* WHITE BLOCK */
+/* ABOUT US */
 /* ======================================================================= */
-/* ORANGE BLOCK */
-.rectangle3 {
+/* PRODUCTS */
+.ourproducts {
 position: absolute;
 width: 1440px;
 height: 853px;
@@ -306,6 +309,7 @@ right: 6.27%;
 top: 60.61%;
 bottom: 21.37%;
 font-weight: 700;
+font-style: normal;
 font-size: 20px;
 line-height: 23px;
 text-align: center;
@@ -336,24 +340,25 @@ border-radius: 0px;
 }
 .p13 {
 height: 22px;
-width: 222px;
+width: 232px;
 left: 36px;
 top: -5px;
 border-radius: nullpx;
 position: absolute;
-font-weight: 700;
+font-weight: 500;
+font-style: normal;
 font-size: 18px;
 line-height: 22px;
 text-align: center;
 text-transform: uppercase;
 color: #FFFFFF;
 }
-/* ORANGE BLOCK */
+/* PRODUCTS */
 /* ======================================================================= */
 /* FORM */
 .p14 {
 position: absolute;
-width: 549px;
+width: 559px;
 height: 29px;
 left: 445px;
 top: 3189px;
@@ -369,7 +374,7 @@ position: absolute;
 width: 568px;
 height: 106px;
 left: 435px;
-top: 3222px;
+top: 3202px;
 font-weight: 900;
 font-size: 45px;
 line-height: 53px;
@@ -455,8 +460,8 @@ text-transform: uppercase;
 }
 #language {
 position: absolute;
-width: 236px;
-height: 52px;
+width: 241px;
+height: 57px;
 left: 733px;
 top: 3646px;
 border: 1px solid #A0A0A0;
@@ -477,7 +482,7 @@ font-weight: bold;
 /* FORM */
 /* ======================================================================= */
 /* BLACK STRIP */
-.rectangle4 {
+.creation {
 position: absolute;
 width: 1440px;
 height: 254px;
@@ -509,7 +514,7 @@ top: 50px;
 /* FOOTER */
 .p17 {
 position: absolute;
-width: 163px;
+width: 173px;
 height: 18px;
 left: 67px;
 top: 4233px;
@@ -533,7 +538,7 @@ color: #292929;
 }
 .p19 {    
 position: absolute;
-width: 126px;
+width: 136px;
 height: 18px;
 left: 1244px;
 top: 4233px;

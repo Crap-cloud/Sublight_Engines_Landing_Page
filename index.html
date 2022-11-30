@@ -7,9 +7,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sublight Engines</title>
         <meta name="description" content="">
-
-        <!--FONTS-->
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         
         <!-- STYLESHEETS -->
         <link rel="stylesheet" href="css/main.css">    
@@ -34,19 +31,19 @@
             </div>
             <div class="box2">
                 <ul class="navbar">
-                    <li>Our Services</li>
-                    <li>Our Products</li>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#products">Our Products</a></li>
+                    <li><a href="#aboutus">About Us</a></li>
+                    <li><a href="#contactus">Contact Us</a></li>
                 </ul>
             </div>
         </nav>
         <!-- Navbar -->
 
-        <!-- Grey block -->
-        <div class="rectangle2">
+        <!-- Services -->
+        <section class="services" id="services">
             <p class="p3">One-stop for your elevator needs</p>
-            <p class="p4">One step close to success</p>
+            <p class="p4">One step closer to success</p>
             <img class= "separator" src="img/separator.svg"/>
             <div class="contenair">
                 <img class= "design" src="img/design.svg"/>
@@ -56,18 +53,20 @@
                 <p class="p6">We build</p>
                 <p class="p7">We maintain</p>
             </div>
-        </div>
-        <!-- Grey block -->
+        </section>
+        <!-- Services -->
 
-        <!-- White block -->
-        <h1 class="tinyTitle">2022 our secureboards series</h1>
-        <h2 class="bigTitle">The perfection in security</h2>
-        <p class="p8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate diam placerat a et pulvinar sapien orci mauris platea. Consectetur non adipiscing duis quis leo integer adipiscing elit. Felis, cursus aenean at egestas mauris. Senectus pharetra volutpat ligula ac et. Morbi amet dignissim ipsum, in accumsan. Rhoncus in erat consectetur mi consectetur. At faucibus pellentesque et aliquet mauris. Senectus facilisi at elementum lectus non egestas. In elementum cum suspendisse quam. Congue sagittis fermentum mauris fermentum ut lectus parturient faucibus id.</p>
-        <div class="img2"></div>
-        <!-- White block -->
+        <!-- About Us -->
+        <section>
+            <h1 id="aboutus" class="tinyTitle">2022 our secureboards series</h1>
+            <h2 class="bigTitle">The perfection in security</h2>
+            <p class="p8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate diam placerat a et pulvinar sapien orci mauris platea. Consectetur non adipiscing duis quis leo integer adipiscing elit. Felis, cursus aenean at egestas mauris. Senectus pharetra volutpat ligula ac et. Morbi amet dignissim ipsum, in accumsan. Rhoncus in erat consectetur mi consectetur. At faucibus pellentesque et aliquet mauris. Senectus facilisi at elementum lectus non egestas. In elementum cum suspendisse quam. Congue sagittis fermentum mauris fermentum ut lectus parturient faucibus id.</p>
+            <div class="img2"></div>
+        </section>
+        <!-- About Us -->
 
-        <!-- Orange block -->
-        <div class="rectangle3">
+        <!-- Products -->
+        <section class="ourproducts" id="products">
             <h1 class="p9">Need more for you fleet of elevators</h1>
             <h2 class="p10">All our products are made with heart and soul</h2>
             <img class= "separator2" src="img/separator2.svg"/>
@@ -101,45 +100,47 @@
             <div class="download_button">
                 <p class="p13">Download our catalog</p>
             </div>
-        </div>
-        <!-- Orange block -->
+        </section>
+        <!-- Products -->
 
         <!-- Form -->
-        <p class="p14">Stay in touch with our customer service</p>
-        <p class="p15">Feel free to contact us for any questions</p>
-        <img class= "separator2" src="img/separator2.svg" style="position: absolute; width: 170px;height: 25.5px; left: 635px; top: 3422px;"/>
-        <form action="#">
-            <label id="namelabel">Name *</label>
-            <input id="name" for="namelabel" placeholder="Enter your full name" type="text" required>
-            <label id="emaillabel">Email address *</label>
-            <input id="email" for="emaillabel" placeholder="yourname@company.com" type="text" required>
-            <label id="phonelabel">Phone number</label>
-            <input id="phone" for="phonelabel" placeholder="0(000) 000-0000" type="text">
-            <label id="languagelabel">Preferred language</label>
-            <select id="language" id="language" for="languagelabel" type="text">
-                <option value="0">Select</option>
-                <option value="1">English</option>
-                <option value="2">French</option>
-                <option value="3">Spanish</option>
-            </select>
+        <section>
+            <p id="contactus" class="p14">Stay in touch with our customer service</p>
+            <p class="p15">Feel free to contact us for any questions</p>
+            <img class= "separator2" src="img/separator2.svg" style="position: absolute; width: 170px;height: 25.5px; left: 635px; top: 3372px;"/>
+            <form action="#">
+                <label id="namelabel">Name *</label>
+                <input id="name" for="namelabel" placeholder="Enter your full name" type="text" required>
+                <label id="emaillabel">Email address *</label>
+                <input id="email" for="emaillabel" placeholder="yourname@company.com" type="text" required>
+                <label id="phonelabel">Phone number</label>
+                <input id="phone" for="phonelabel" placeholder="0(000) 000-0000" type="text">
+                <label id="languagelabel">Preferred language</label>
+                <select id="language" id="language" for="languagelabel" type="text">
+                    <option value="0">Select</option>
+                    <option value="1">English</option>
+                    <option value="2">French</option>
+                    <option value="3">Spanish</option>
+                </select>
 
-            <input id="button" type="button" value="Submit">
-        </form>
+                <input id="button" type="button" value="Submit">
+            </form>
+        </section>
         <!-- Form -->
 
         <!-- Black strip -->
-        <div class="rectangle4">
+        <section class="creation">
             <p class="p16">With your trust since 1943.</p>
             <img class= "signature" src="img/signature.svg"/>
-        </div>
+        </section>
         <!-- Black strip -->
 
-        <!-- FOOTER -->
+        <!-- Footer -->
         <p class="p17">United States office</p>
         <p class="p18">456 harlem boulevard saratoga springs, ny, usa <span>1 999 543-4567</span></p>
         <p class="p19">Canada’s office</p>
         <p class="p20">23895 bradshaw boulevard kingston, ont, ca <br><span>1 999 543-4567</span></p>
         <p class="p21">All rights reserved to CodeBoxx Solutions ©, 2022.</p>
-        <!-- FOOTER -->
+        <!-- Footer -->
     </body>
 </html>
