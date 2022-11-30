@@ -460,6 +460,8 @@ height: 52px;
 left: 733px;
 top: 3646px;
 border: 1px solid #A0A0A0;
+padding-left: 23px; 
+color: #383838;
 }
 #button {
 position: absolute;
