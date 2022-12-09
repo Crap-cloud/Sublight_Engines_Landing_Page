@@ -332,7 +332,7 @@ label {
     display: flex;
     flex-direction: column;
 }
-input[type=text]::placeholder {
+input[type=text]::placeholder, input[type=email]::placeholder, input[type=tel]::placeholder {
     padding-left: 23px;
     color: #A0A0A0;
  }
