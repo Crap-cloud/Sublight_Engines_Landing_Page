@@ -510,15 +510,23 @@ input[type=text]::placeholder {
     .nav div.main_list ul li a{
         padding-right: 2rem;
     }
-    
 }
 @media screen and (max-width: 857px) {
     /* BACKGROUND IMG */
+    .toTheTop {
+        padding: 0 10px;
+    }
     .p1 {
-        font-size: 41px;
+        font-size: 31px;
     }
     .p2 {
-        font-size: 69px;
+        font-size: 50px;
+        margin-bottom: 80px;
+    }
+    .elevator_button {
+        position: absolute;
+        margin-bottom: -30px;
+        z-index: 99;
     }
     /* BACKGROUND IMG */
     /* ======================================================================= */
@@ -550,6 +558,7 @@ input[type=text]::placeholder {
         display: block;
         position: fixed;
         top: 117px;
+        z-index: 999;
     }
     .nav div.main_list ul {
         
@@ -586,6 +595,7 @@ input[type=text]::placeholder {
     }
     .services {
         height: auto;
+        border-top: #a0a0a0c1 1px solid;
     }
     .p3 {
         font-size: 20px;
