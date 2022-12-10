@@ -9,6 +9,6 @@ Video link : https://youtu.be/jbi1SqX2_vU
 
 # JS file
 
-I forget to mention my javascript file for the hamburger menu in my youtube video. The first part is adding or removing the `active` class to navTrigger div and `show_list` class to mainListDiv. The second one is when we click on the dropdown's link to close the dropdown.
+I forget to mention my javascript file for the hamburger menu in my youtube video. The first part is adding or removing the `active` class to navTrigger div and `show_list` class to mainListDiv. The second one is when we click on the dropdown's link to close the dropdown. And the last one is to to verify some validations for the form.
 ![alt text](https://github.com/Crap-cloud/Sublight_Engines_Landing_Page/blob/main/javascripts.png?raw=true)
 
